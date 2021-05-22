@@ -1,0 +1,144 @@
+body {
+    background-color: whitesmoke;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50px;
+    position: sticky;
+    top: 10vh;
+    z-index: 3;
+    padding: 10px 10px 0;
+    background-color: whitesmoke;
+}
+
+.products ul {
+    display: flex;
+}
+
+.products li {
+    font-family: 'Newsreader', serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px 15px;
+}
+
+.products li a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+/* .products li b a {
+    color: rgb(87, 36, 36);
+} */
+
+.products li a:hover {
+    font-weight: bold;
+    color: royalblue;
+}
+
+.placard {
+    max-width: 95vw;
+    margin: 5px auto 50px auto;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+}
+
+.first-element {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px 1.5vw;
+}
+
+.first-element img {
+    width: 200px;
+}
+
+.first-element:hover {
+    transform: scale(1.08);
+}
+
+.side h4 {
+    margin: 5px 5px;
+    font-size: x-small;
+    font-family: 'Lato', sans-serif;
+    color: rgb(88, 88, 88);
+}
+
+.side h2 {
+    margin: 5px 5px;
+    font-size: large;
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+}
+
+.side p {
+    font-size: large;
+    font-family: 'Noto Serif', serif;
+    font-weight: bolder;
+    margin: 2px 5px;
+}
+
+.other-element {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 5px;
+    background-color: #ffff;
+}
+
+.other-element img {
+    width: 180px;
+}
+
+.other-element:hover {
+    transform: scale(1.08);
+}
+
+.goal {
+    max-width: 90vw;
+    margin: 5vh auto;
+    font-family: 'Brawler', serif;
+}
+
+.goal h1 {
+    margin: 1vh;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vh 5vh;
+}
+
+.card-item:hover {
+    transform: scale(1.08);
+    background-color: white;
+}
+
+.card-item p {
+    margin: 5vh 0;
+    font-size: x-large;
+    font-weight: bold;
+}

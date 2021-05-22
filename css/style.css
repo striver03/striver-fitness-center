@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* font-family: 'Pacifico', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@700&display=swap');
+/* font-family: 'Newsreader', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Brawler&display=swap');
+/* font-family: 'Brawler', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+/* font-family: 'Merriweather', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* font-family: 'Lato', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+/* font-family: 'Philosopher', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+/* font-family: 'Karla', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: black;
+    background-image: url(/img/footer.jpg);
+    font-family: 'Brawler', serif;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 85px;
+    margin: 10px;
+    padding: 0 30px;
+}
+
+nav ul {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(97, 195, 252);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    margin: 0 10px 0 70px;
+    padding: 0 5px;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    font-family: 'Newsreader', serif;
+    font-size: large;
+}
+
+.search img {
+    width: 25px;
+    margin: 0 5px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart img {
+    width: 50px;
+    margin: 5px 10px 5px 40px;
+}
+
+main {
+    min-height: 675px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 50px 0 0;
+    height: 650px;
+    overflow: hidden;
+}
+
+.slider hr {
+    border: blue;
+    height: 50px;
+}
+
+.set {
+    max-width: 90vw;
+    margin: 4vh auto;
+    font-family: 'Noto Serif', serif;
+    font-size: large;
+    font-weight: bolder;
+    
+}
+
+.set h1 {
+    margin: 1vh;
+    text-align: start;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vh 5vh;
+    background-color: #fff;
+}
+
+.product:hover {
+    transform: scale(1.08);
+}
+
+.product img {
+    width: 15vw;
+}
+
+.product p {
+    margin: 2vh 0;
+    font-family: 'Merriweather', serif;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+}
+
+.product s {
+    color: rgb(68, 67, 67);
+    font-weight: lighter;
+}
+
+.chead {
+    font-family: 'Pacifico', cursive;
+    align-items: center;
+    justify-content: center;   
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh 5vh;
+}
+
+.category img {
+    width: 10vw;
+    margin: 1vw;
+}
+
+.category img:hover {
+    transform: scale(1.08);
+}
+
+.supplements {
+    margin: 2px 50px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.timing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-image: url(/img/footer.jpg);
+}
+
+.timing ul {
+    display: flex;
+    list-style: none;
+    color: whitesmoke;
+}
+
+.timing ul h4 {
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1vh 3vw 0.5vh 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2vw;
+}
+
+.timing ul h5 {
+    align-items: center;
+    justify-content: center;
+    margin: 1.3vh auto;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2vw;
+}
+
+.timing ul h6 {
+    align-items: center;
+    justify-content: flex-end;
+    margin: 1vh 2vw 1vh 40vw;
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2vw;
+}
+
+.residuals {
+    padding: 3vh 0;
+    background-image: url(/img/footer.jpg);
+    font-family: 'Karla', sans-serif;
+    color: whitesmoke;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.element {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh 10vw;
+}
+
+.element p {
+    font-size: large;
+}
+
+.element h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.map {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.clicks img{
+    align-items: center;
+    width: 3.5vw;
+    margin: 3vh 0.5vw;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: #333333;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
