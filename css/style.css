@@ -33,7 +33,7 @@ main {
 
 header {
     background-color: black;
-    background-image: url(/img/footer.jpg);
+    background-image: url(/striver-fitness-center/img/footer.jpg);
     font-family: 'Brawler', serif;
     position: fixed;
     top: 0;
@@ -212,7 +212,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 50px;
-    background-image: url(/img/footer.jpg);
+    background-image: url(/striver-fitness-center/img/footer.jpg);
 }
 
 .timing ul {
@@ -247,7 +247,7 @@ main {
 
 .residuals {
     padding: 3vh 0;
-    background-image: url(/img/footer.jpg);
+    background-image: url(/striver-fitness-center/img/footer.jpg);
     font-family: 'Karla', sans-serif;
     color: whitesmoke;
 }
